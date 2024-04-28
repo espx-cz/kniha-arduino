@@ -1,0 +1,4 @@
+
+
+bool WiFiConnection();
+void WiFiOff();

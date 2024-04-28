@@ -1,0 +1,1 @@
+String APIKEY = "Sem vložte klíč pro Thingspeak";
