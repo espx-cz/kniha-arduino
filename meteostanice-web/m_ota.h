@@ -1,0 +1,1 @@
+void doOTA(esp_sleep_wakeup_cause_t wakeupReason);

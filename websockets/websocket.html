@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>WebSocket Test</title>
+</head>
+<body>
+  <h2>WebSocket Test</h2>
+  <input id="messageInput" type="text" placeholder="Zadejte zprávu">
+  <button onclick="sendMessage()">Odeslat</button>
+  <div id="output"></div>
+
+  <script>
+    var ws;
+    function init() {
+      ws = new WebSocket('ws://192.168.0.123:81/');
+      ws.onopen = function() {
+        document.getElementById('output').innerHTML += 'WebSocket připojen<br>';
+      };
+      ws.onmessage = function(event) {
+        document.getElementById('output').innerHTML += 'Přijata zpráva: ' + event.data + '<br>';
+      };
+      ws.onclose = function() {
+        document.getElementById('output').innerHTML += 'WebSocket odpojen<br>';
+      };
+    }
+
+    function sendMessage() {
+      var message = document.getElementById('messageInput').value;
+      ws.send(message);
+      document.getElementById('output').innerHTML += 'Odeslána zpráva: ' + message + '<br>';
+    }
+
+    window.onload = init;
+  </script>
+</body>
+</html>
