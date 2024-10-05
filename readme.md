@@ -1,0 +1,27 @@
+- [argon](./argon) - Příklad implementace hashování hesla pomocí algoritmu Argon2 na ESP32.
+- [BasicOTAandSleep](./BasicOTAandSleep) - Ukázka kombinace OTA aktualizací a režimu spánku pro ESP32.
+- [camStream](./camStream) - Streamování videa z kamery připojené k ESP32.
+- [fabgl-hello](./fabgl-hello) - Jednoduchý příklad použití knihovny FabGL pro grafické rozhraní.
+- [fabgl_had](./fabgl_had) - Pokročilejší demonstrace možností knihovny FabGL.
+- [hivemq](./hivemq) - Příklad připojení k HiveMQ MQTT brokeru pomocí ESP32.
+- [hodiny](./hodiny) - Implementace digitálních hodin na ESP32.
+- [libraries](./libraries) - Adresář s používanými knihovnami pro projekty.
+- [mesh_ble](./mesh_ble) - Vytvoření mesh sítě pomocí Bluetooth Low Energy.
+- [mesh_M5](./mesh_M5) - Příklad mesh sítě s využitím M5Stack zařízení.
+- [mesh_simple](./mesh_simple) - Jednoduchá implementace mesh sítě na ESP32.
+- [meteostanice](./meteostanice) - Základní verze meteostanice s ESP32.
+- [meteostanice-chatgpt](./meteostanice-chatgpt) - Meteostanice rozšířená o integraci s ChatGPT.
+- [meteostanice-tmep](./meteostanice-tmep) - Meteostanice s odesíláním dat na server TMEP.cz.
+- [meteostanice-web](./meteostanice-web) - Meteostanice s webovým rozhraním.
+- [mpl3115a2](./mpl3115a2) - Práce se senzorem tlaku a teploty MPL3115A2.
+- [t-display-buttons-mqtt](./t-display-buttons-mqtt) - Ovládání MQTT pomocí tlačítek na TTGO T-Display.
+- [t-display-demo](./t-display-demo) - Ukázka funkcí displeje TTGO T-Display.
+- [t5_eink_test](./t5_eink_test) - Test e-ink displeje na TTGO T5.
+- [t5_sd](./t5_sd) - Práce s SD kartou na TTGO T5.
+- [t5_spiffs](./t5_spiffs) - Použití souborového systému SPIFFS na TTGO T5.
+- [t5_time](./t5_time) - Zobrazení času na TTGO T5.
+- [td-demo](./td-demo) - Další ukázka možností TTGO T-Display.
+- [TFT_display](./TFT_display) - Práce s TFT displejem na ESP32.
+- [webserial](./webserial) - Implementace sériové komunikace přes webové rozhraní.
+- [websockets](./websockets) - Použití WebSocket protokolu na ESP32.
+- [WiFiClientSecure](./WiFiClientSecure) - Příklad zabezpečeného WiFi připojení.
